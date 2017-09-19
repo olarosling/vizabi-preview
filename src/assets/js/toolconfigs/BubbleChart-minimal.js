@@ -1,25 +1,6 @@
 var VIZABI_MODEL = {
-  "state": {
-    "time": {
-      "dim": "time"
-    },
-    "entities": {
-      "dim": "geo"
-    },
-    "marker": {
-      "label": {
-        "which": "name"
-      },
-      "axis_y": {
-        "which": "life_expectancy_years"
-      },
-      "axis_x": {
-        "which": "life_expectancy_years"
-      }
-    }
-  },
   "data": {
-    "reader": "waffle",
-    "path": "https://waffle-server-dev.gapminderdev.org/api/ddf/ql"
+    "reader": "csv",
+    "path": "https://raw.githubusercontent.com/vizabi/vizabi-preview/master/src/data/core_data_unpivoted_20170920a.csv"
   }
 };
