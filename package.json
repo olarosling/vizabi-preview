@@ -1,6 +1,6 @@
 {
   "name": "vizabi-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A preview page for developers to work with different vizabi tools",
   "main": "index.js",
   "scripts": {
